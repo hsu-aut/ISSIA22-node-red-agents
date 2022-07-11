@@ -1,4 +1,4 @@
-# ISSIA22-node-red-agents
+# ISSIA22: Node-RED Software Agent Workshop
 Workshop on how to develop software agents using Node-RED and semantic web technologies held during the 2022 International Summer School on Industrial Agents
 
 ## Folder structure:
