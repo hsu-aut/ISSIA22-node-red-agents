@@ -6,6 +6,15 @@ Workshop on how to develop software agents using Node-RED and semantic web techn
 2. [Folder structure](https://github.com/hsu-aut/ISSIA22-node-red-agents#folder-structure)
 3. [Use Case](https://github.com/hsu-aut/ISSIA22-node-red-agents#use-case)
 4. [Approach 1 - Local data store, hard-wired communication](https://github.com/hsu-aut/ISSIA22-node-red-agents#approach-1-local-data-storage-and-direct-communication)
+5. [Approach 2 - Ontology and agent communication](https://github.com/hsu-aut/ISSIA22-node-red-agents#approach-2-using-an-ontology-and-more-detailed-agent-communication)
+    1. [Registering & Unregistering Agents](https://github.com/hsu-aut/ISSIA22-node-red-agents#registering-and-unregistering-agents-with-an-explicit-capability-description)
+    2. [Sensor A](https://github.com/hsu-aut/ISSIA22-node-red-agents#sensor-a---detect-and-store-workpiece-information-in-graphdb)
+    3. [Conveyor](https://github.com/hsu-aut/ISSIA22-node-red-agents#sensor-a---detect-and-store-workpiece-information-in-graphdb)
+    4. [Sensor B - React on Products and Create CFP](https://github.com/hsu-aut/ISSIA22-node-red-agents#sensor-b---wait-for-products-get-relevant-mqtt-topic-and-create-proposals)
+    5. [Grippers - Handle CFPs](https://github.com/hsu-aut/ISSIA22-node-red-agents#grippers---reacting-on-cfps)
+    6. [Sensor B - Wait for proposals](https://github.com/hsu-aut/ISSIA22-node-red-agents#sensor-b---waiting-for-proposals)
+    7. [Grippers - React on Accept / Reject](https://github.com/hsu-aut/ISSIA22-node-red-agents#grippers---reacting-on-accept--reject)
+6. [Limitations](https://github.com/hsu-aut/ISSIA22-node-red-agents#limitations)
 
 
 ## Installation instructions: What you need
